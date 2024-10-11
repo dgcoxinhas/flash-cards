@@ -7,3 +7,7 @@
     --branco:#ffffff;
     
 }
+
+body{
+    background-color: var(--fundo);
+}
