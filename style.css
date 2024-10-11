@@ -16,4 +16,7 @@ footer{
     background-color: var(--branco);
     position: fixed;
     bottom: 0;
+    color: var(--destaque);
+    width: 100%;
+    text-align: center;
 }
