@@ -81,3 +81,7 @@ footer{
     background-color: var(--cartao-verso);
 
 }
+
+.pergunta-cartao{
+    color: var(--cartao-verso);
+}
