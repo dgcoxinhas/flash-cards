@@ -59,7 +59,6 @@ footer{
     margin-top: 4rem;
     padding: 2rem;
     font-size: 1.4vw;
-    color: var(--cartao-verso);
 }
 
 .cartao:hover .conteudo-cartao{
@@ -80,5 +79,5 @@ footer{
     color: var(--branco);
     border: 2px solid var(--destaque);
     background-color: var(--cartao-verso);
-    
+
 }
