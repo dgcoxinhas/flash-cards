@@ -36,3 +36,30 @@ footer{
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
+
+.conteudo-cartao{
+    background-color: var(--cartao-frent);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+
+.conteudo-cartao h3{
+    position: absolute;
+    text-align: left;
+    border: 1px solid var(--destaque);
+    border-radius: 20px;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
+
+.conteudo-cartao p{
+    margin-top: 4rem;
+    padding: 2rem;
+    font-size: 1.4vw;
+}
+
+.cartao:hover .conteudo-cartao{
+    transform: rotateY(180deg);
+}
