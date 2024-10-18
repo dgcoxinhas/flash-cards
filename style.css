@@ -52,6 +52,7 @@ footer{
     border-radius: 20px;
     margin: 0.6rem;
     padding: 0.6rem;
+    backface-visibility: hidden;
 }
 
 .conteudo-cartao p{
