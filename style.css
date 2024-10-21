@@ -5,6 +5,7 @@
     --destaque:#F19BB0 ;
     --preto:#000000;
     --branco:#ffffff;
+    --roxo:#554083;
     
 }
 
@@ -61,11 +62,12 @@ header a{
 .conteudo-cartao h3{
     position: absolute;
     text-align: left;
-    border: 1px solid var(--destaque);
+    border: 1px solid var(--roxo);
     border-radius: 20px;
     margin: 0.6rem;
     padding: 0.6rem;
     backface-visibility: hidden;
+    color: var(--cartao-verso);
 }
 
 .conteudo-cartao p{
