@@ -5,6 +5,7 @@
     --destaque:#F19BB0 ;
     --preto:#000000;
     --branco:#ffffff;
+    --azul:#3b6da0;
     
 }
 
@@ -47,6 +48,7 @@ header a{
     padding: 40px;
     border: 1px solid var(--destaque);
     transition: transform 0.2s;
+    box-shadow: 10px 10px 5px var(--azul);
 }
 
 .conteudo-cartao:hover{
