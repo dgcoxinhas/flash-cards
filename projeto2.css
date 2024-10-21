@@ -61,4 +61,6 @@ header a{
     padding: 2rem;
     text-align: center;
     color: var(--branco);
+    margin: 2rem;
+    display: none;
 }
