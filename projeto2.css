@@ -46,9 +46,10 @@ header a{
     background-color: var(--cartao-frente);
     padding: 40px;
     border: 1px solid var(--destaque);
-
+    transition: transform 0.2s;
 }
 
 .conteudo-cartao:hover{
     transform: scale(1.02);
+
 }
