@@ -32,6 +32,7 @@ header{
 
 header a{
     color: var(--destaque);
+    text-decoration: none;
 }
 
 #container{
