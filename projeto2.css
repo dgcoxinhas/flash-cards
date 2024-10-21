@@ -55,3 +55,10 @@ header a{
     transform: scale(1.02);
 
 }
+
+.resposta-cartao{
+    background-color: var(--cartao-verso);
+    padding: 2rem;
+    text-align: center;
+    
+}
